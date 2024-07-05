@@ -1,3 +1,5 @@
+
+    
 body {
     font-family: "Roboto", sans-serif;
     color:#434455;
@@ -43,6 +45,16 @@ a {
     text-decoration: none;
 }
 /* HEADER */
+/*header-container*/
+.header-container {
+    
+}
+.header-nav-container{
+
+}
+.header-address-container{
+
+}
 
 .header-nav {
     font-weight: 500;
@@ -177,4 +189,13 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+main{
+    flex-grow: 1;
+}
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
