@@ -44,24 +44,35 @@ h3 {
 a {
     text-decoration: none;
 }
+img {
+    display: block;
+}
 /* HEADER */
 /*header-container*/
+header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
-    
+ 
+    width: 1158px;
+    padding: 0 156px;
 }
 .header-nav-container{
 
 }
 .header-address-container{
 
+    
 }
 
 .header-nav {
+    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+   
 }
 
 .header-nav-logo {
@@ -81,6 +92,7 @@ a {
 
 .header-nav-page {
     color: #2e2f42;
+    display: flex;
 }
 
 .header-nav-page:hover {
