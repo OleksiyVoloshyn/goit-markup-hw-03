@@ -1,5 +1,10 @@
 
-    
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color:#434455;
@@ -47,34 +52,47 @@ a {
 img {
     display: block;
 }
+.page-container {
+    display: flex;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
 /* HEADER */
 /*header-container*/
 header {
     border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
- 
+    display: flex;
     width: 1158px;
-    padding: 0 156px;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
 }
-.header-nav-container{
-
-}
-.header-address-container{
-
-    
-}
-
 .header-nav {
     display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 0;
+    margin: 0;
    
 }
-
+.header-nav-list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 40px;
+    padding: 0;
+}
 .header-nav-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -84,6 +102,12 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-right: 76px;
 }
 
 .header-nav-logo-span {
@@ -92,7 +116,8 @@ header {
 
 .header-nav-page {
     color: #2e2f42;
-    display: flex;
+    padding: 24px 0 24px 0;
+    
 }
 
 .header-nav-page:hover {
@@ -102,7 +127,7 @@ header {
 .header-nav-page:focus {
     color: #404bbf;
 }
-
+/*address*/
 .header-address {
     font-weight: 400;
     font-size: 16px;
@@ -110,8 +135,16 @@ header {
     letter-spacing: 0.02em;
     font-style: normal;
     
+    display: flex;
+    
 }
-
+.header-address-list{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 40px;
+}
 .header-address-contacts {
     color: #434455;
 }
