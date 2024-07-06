@@ -42,8 +42,10 @@ img {
 }
 .container { 
     max-width: 1440px;
-    padding: 0;
-    margin: 0 156px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 156px;
+    margin-right: 156px;
     }
 /* HEADER */
 header{
@@ -54,11 +56,13 @@ head:first-child {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+
 }
 /*HEADERNAV*/
 .header-nav {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -102,11 +106,14 @@ head:first-child {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;    
+    font-style: normal;
+    display: flex;
+
 }
 .header-address-list{
     display: flex;
     gap: 40px;
+
 
 }
 .header-address-contacts {
@@ -124,6 +131,13 @@ head:first-child {
 /* introduction */
 .main-section-one {
     background-color: #2e2f42;
+    padding: 188px 0;
+}
+.main-section-one-title {
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
 }
 
 .main-section-one-button {
@@ -135,6 +149,12 @@ head:first-child {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
  button:hover {
@@ -145,6 +165,19 @@ button:focus {
     background-color: #404BBF
 }
 /* foundations of business */
+.visually-hidden {
+
+}
+.main-section-two {
+    padding: 120px 0;
+}
+.main-section-two-list {
+    display: flex;
+    gap: 24px;
+}
+.main-section-two-titlename {
+    
+}
 .main-section-two-text {
     font-weight: 400;
     font-size: 16px;
