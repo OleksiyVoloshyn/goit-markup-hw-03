@@ -42,6 +42,9 @@ h3 {
 a {
     text-decoration: none;
 }
+img {
+    display: block;
+}
 /* HEADER */
 
 .header-nav {
