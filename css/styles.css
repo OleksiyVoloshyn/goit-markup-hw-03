@@ -47,8 +47,8 @@ img {
 }
 .container { 
     max-width: 1440px;
-    padding-left: 0;
-    margin: 156px 0 156px 0;
+    padding: 0;
+    margin: 0 156px;
     }
 /* HEADER */
 header{
@@ -162,6 +162,9 @@ button:focus {
     letter-spacing: 0.02em;
 }
 /* footer */
+footer {
+    padding: 100px 0;
+}
 .footer-web {
     background-color: #2e2f42;
 }
@@ -175,6 +178,8 @@ button:focus {
     text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-web-logo-span {
@@ -187,4 +192,5 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
