@@ -52,11 +52,8 @@ a {
 img {
     display: block;
 }
-.page-container {
-    display: flex;
+.container {
     max-width: 1440px;
-    align-items: center;
-    justify-content: center;
     margin: 0;
     padding: 0;
 }
