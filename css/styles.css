@@ -45,8 +45,15 @@ a {
 img {
     display: block;
 }
+.container { 
+    max-width: 1440px;
+    padding-left: 0;
+    margin: 156px 0 156px 0;
+    }
 /* HEADER */
-
+header{
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-nav {
     font-weight: 500;
     font-size: 16px;
