@@ -3,11 +3,9 @@ body {
     color:#434455;
     background-color: #ffffff;
 }
-
 ul {
     list-style-type: none;
 }
-
 h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -17,7 +15,6 @@ h1 {
     text-align: center;
     color: #fff;
 }
-
 h2 {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -28,7 +25,6 @@ h2 {
     color: #2e2f42;
     text-transform: capitalize;
 }
-
 h3 {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -38,7 +34,6 @@ h3 {
     text-align: center;
     color: #2e2f42;
 }
-
 a {
     text-decoration: none;
 }
@@ -54,15 +49,26 @@ img {
 header{
     border-bottom: 1px solid #e7e9fc;
 }
+head:first-child {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/*HEADERNAV*/
 .header-nav {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
-
 .header-nav-logo {
+    margin-right: 76px;
+
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -72,32 +78,37 @@ header{
     text-decoration: none;
     color: #4d5ae5;
 }
-
 .header-nav-logo-span {
     color: #2e2f42;
 }
-
+.header-nav-list{
+    display: flex;
+    gap: 40px;
+    
+}
 .header-nav-page {
     color: #2e2f42;
+    padding: 24px 0;
 }
-
 .header-nav-page:hover {
     color: #404bbf;
 }
-
 .header-nav-page:focus {
     color: #404bbf;
 }
-
+/*ADDRESS*/
 .header-address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
-    
+    font-style: normal;    
 }
+.header-address-list{
+    display: flex;
+    gap: 40px;
 
+}
 .header-address-contacts {
     color: #434455;
 }
