@@ -166,7 +166,7 @@ button:focus {
 }
 /* foundations of business */
 .visually-hidden {
-
+    visibility: hidden;
 }
 .main-section-two {
     padding: 120px 0;
@@ -176,7 +176,13 @@ button:focus {
     gap: 24px;
 }
 .main-section-two-titlename {
-    
+    margin-bottom: 8px;
+}
+.main-section-two-list-page {
+    width: calc((100% - 72px)/4);
+}
+.main-section-two-titlename {
+    margin-bottom: 8px;
 }
 .main-section-two-text {
     font-weight: 400;
@@ -188,17 +194,61 @@ button:focus {
 /* our team*/
 .main-section-three {
     background-color: #f4f4fd;
+    padding: 120px 0 120px 0;
+}
+.main-section-three-title {
+    margin-bottom: 72px;
+}
+.main-section-three-list-title {
+    display: flex;
+    gap: 24px;
 }
 .main-section-three-list {
     background-color: #FFFFFF;
+    width: calc((100% - 72px)/4);
+}
+.main-section-three-list :first-child {
+    border-radius: 0 0 4px 4px;
+}
+.main-section-three-workers {
+    padding: 32px 0;
+}
+.main-section-three-titlename {
+    text-align: center;
+    margin-bottom: 8px;
 }
 .main-section-three-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 /* Our Portfolio */
+.main-section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.main-section-four-title {
+    margin-bottom: 72px;
+}
+.main-section-four-title {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.main-section-four-list {
+    width: calc((100% - 48px)/3);
+}
+.main-section-four-list-category {
+    padding: 32px 26px;
+    border: 1px solid #e7e9fc;
+    border-top: 8px;
+}
+.main-section-four-titlename {
+    margin-bottom: 8px;
+}
 .main-section-four-text {
     font-weight: 400;
     font-size: 16px;
