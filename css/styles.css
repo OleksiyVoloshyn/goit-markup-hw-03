@@ -114,13 +114,10 @@ header{
     letter-spacing: 0.02em;
     font-style: normal;
     display: flex;
-
 }
 .header-address-list{
     display: flex;
     gap: 40px;
-
-
 }
 .header-address-contacts {
     color: #434455;
@@ -195,7 +192,7 @@ button:focus {
     margin-bottom: 8px;
 }
 .main-section-two-list-page { 
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .main-section-two-titlename {
     margin-bottom: 8px;
