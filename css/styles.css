@@ -72,6 +72,7 @@ header{
 }
 .header .container {
     display: flex;
+    padding: 0 15px;
     justify-content: space-between;
     align-items: center;
 
@@ -271,7 +272,7 @@ button:focus {
     border-top: 8px;
 }
 .main-section-four-titlename {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 
 
 }
