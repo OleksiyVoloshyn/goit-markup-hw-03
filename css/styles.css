@@ -46,6 +46,10 @@ img {
     max-width: 100%;
     object-fit:cover;
 }
+lu {
+    padding-left: 0; 
+    margin: 0;
+}
 .container { 
     max-width: 1440px;
     padding-left: 0;
@@ -218,7 +222,7 @@ button:focus {
 }
 .main-section-three-list {
     background-color: #FFFFFF;
-    width: calc((100% - 72px)/4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
 }
 .main-section-three-workers {
