@@ -7,9 +7,12 @@ body {
     font-family: "Roboto", sans-serif;
     color:#434455;
     background-color: #ffffff;
+    
 }
 ul {
     list-style-type: none;
+    padding-left: 0; 
+    
 }
 h1 {
     font-family: "Roboto", sans-serif;
@@ -46,10 +49,6 @@ img {
     max-width: 100%;
     object-fit:cover;
 }
-lu {
-    padding-left: 0; 
-    margin: 0;
-}
 li {
     padding-left: 0; 
     margin: 0;
@@ -60,6 +59,7 @@ li {
     padding-right: 0;
     margin-left: 156px;
     margin-right: 156px;
+    justify-content: center;
     }
 /* HEADER */
 header{
@@ -70,6 +70,8 @@ header{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    justify-content: space-between;
+    
 
 }
 /*HEADERNAV*/
